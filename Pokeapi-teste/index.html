@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <a href="https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number">
+            <img src="css/imagens/logo.png" alt="Erro">
+            </a>
+        </header>
+
+        <div id="input">
+            <label for="pokenome">Digite o nome ou ID do pokémon que deseja analisar:</label>
+            <input type="text" id="nome-input" placeholder="ID's validos entre 1 - 898">
+            <input type="button" value="Confirmar" id="confirmar">
+        </div>
+
+        <div id="pokedex">
+            <div id="display">
+                <img src="" alt="pokemon-image" style="display: none;"/>
+            </div>
+            <div id="pokeinfo">
+                <p id="pokeinfo__num"></p>
+                <p id="pokeinfo__nome"></p>
+                <div id="pokeinfo__tipos"></div>
+            </div>
+        </div>
+    </body>
+
+    <script src="js/script.js"></script>
+</html>

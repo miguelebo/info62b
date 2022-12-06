@@ -1,0 +1,56 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    position: flex;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(imagens/bgdesktop.jpg);
+    background-size: 100vw 100vh;
+    text-align: center;
+    align-items: center;
+}
+
+header img{
+    height: 10vh;
+}
+
+header{
+    background-size: 100vw;
+    background-color: #00f;
+    font-size: 25px bold;
+    text-align: center;
+    padding-top: 1vh;
+}
+
+#input{
+    font-size: 1.5em;
+    text-align: center;
+    width: 25vw 25vh;
+    border-radius: 10%;
+    border-style:solid;
+    border-color: #000;
+    border-width: 0.1vh 0.1vw;
+    margin: 3vh 30vw 0 30vw;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+#display{
+    background: rgba(255, 255, 255, 0.6);
+    margin: 3vh 35vw 0 35vw;
+    border-width: 0.1vh 0.1vw; 
+    border-color: #000;
+    border-style: solid;
+    border-radius: 10%;
+}
+
+#pokeinfo{
+    font-size: 1.5em;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 3vh 30vw 0 30vw;
+    border-width: 0.3vh 0.3vw; 
+    border-color: #000;
+    border-style: solid;
+    border-radius: 10%;  
+}
